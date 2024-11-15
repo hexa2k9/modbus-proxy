@@ -1,0 +1,2 @@
+modbus-proxy==0.8.0
+modbus-proxy[yaml]==0.8.0
