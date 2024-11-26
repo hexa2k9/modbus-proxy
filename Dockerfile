@@ -14,7 +14,7 @@ FROM python:3.13-alpine3.20
 RUN set -eux \
     && apk --no-cache upgrade
 
-COPY --from=builder /opt/virtualenv /opt
+COPY --from=builder /opt/virtualenv /opt/virtualenv
 
 EXPOSE 9000
 
